@@ -1,0 +1,71 @@
+body{
+
+}
+#wrap{
+	position: relative;
+}
+.main{
+	background: url('../img/main-bg.jpg') repeat-x 0 0;
+}
+.main > div{
+	text-align: center;
+}
+#header{
+	z-index: 110;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	margin-left: -750px;
+}
+#visual{
+	z-index: 100;
+	padding-top: 115px;
+	line-height: 1;
+	margin: 0;
+}
+.side-content{
+	position: absolute;
+	right: -600px;
+	top: 115px;
+	-webkit-transition: right ease-in-out 0.3s;
+	-moz-transition: right ease-in-out 0.3s;
+	-ms-transition: right ease-in-out 0.3s;
+	-o-transition: right ease-in-out 0.3s;
+	transition: right ease-in-out 0.3s;
+}
+.side-content.on{
+	right: 0;
+}
+#container{
+	margin-top: -2px;
+}
+
+#footer{
+	margin-top: -3px;
+}
+.sub{
+	background: url('../img/sub-bg.jpg') repeat-x 0 0;
+}
+.sub #header{
+	position: inherit;
+	margin: 0;
+	left: 0;
+	top: 0;
+	text-align: center;
+}
+.sub #container{
+	position: inherit;
+	margin: 0;
+	left: 0;
+	top: 0;
+	text-align: center;
+	margin-top: -42px;
+}
+.sub #footer{
+	position: inherit;
+	margin: 0;
+	left: 0;
+	top: 0;
+	text-align: center;
+	margin-top: -5px;
+}
