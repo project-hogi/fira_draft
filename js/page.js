@@ -1,5 +1,6 @@
 
 $(function(){
+    var body = $('body');
     var $btnSideContent = $('.btn-side-content');
     var $sideContent = $('.side-content');
     var $btnSideContentClose = $('.btn-side-content-close');

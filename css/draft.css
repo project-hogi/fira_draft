@@ -22,6 +22,7 @@ body{
 	padding-top: 115px;
 	line-height: 1;
 	margin: 0;
+	background: url('../img/visual-bg.jpg') repeat-x 50% 115px;
 }
 .side-content{
 	position: absolute;
@@ -42,6 +43,8 @@ body{
 
 #footer{
 	margin-top: -3px;
+	height: 208px;
+	background: #333 url('../img/footer-bg.jpg') repeat-x 0 0;
 }
 .sub{
 	background: url('../img/sub-bg.jpg') repeat-x 0 0;
